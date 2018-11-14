@@ -1,0 +1,75 @@
+.section-1{
+    background-image: url(../img/bg-img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .black{
+        // background-color: #494b54;
+        background-color: rgba(67,71,79,0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        // opacity: 0.5;
+        .container{
+            .nav-header{
+                padding-top: 55px;
+                .logo-h1{
+                 font-family: $MontBold;
+                 font-size: 20px;
+                 color: $White;
+                 text-transform: uppercase;
+                 letter-spacing: 10px;
+                }
+                .navigation{
+                    .navigation-ul{
+                        .navigation-li{
+                            font-family: $MontBold;
+                            font-size: 15px;
+                            color: $White;
+                            text-transform: uppercase;
+                            padding: 0 10px;
+                        }
+                    }
+                }
+                .social-ul{
+                    .social-li{
+                        font-size: 15px;
+                        color: $White;
+                        padding-right: 35px;
+                    }
+                    .social-li:last-child{
+                        padding-right: 0px;
+                    }
+                }
+            } 
+          .article-section-1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            .article-section-1-h1{
+                font-family: $MontBold;
+                font-size: 52px;
+                color: $White;
+                width: 455px;
+                text-align: center;
+                line-height: 60px;
+                font-weight: bold;
+            }
+            .article-section-1-p{
+                font-family: $SerifRegular;
+                font-size: 20px;
+                color: $White;
+                width: 370px;
+                text-align: center;
+                line-height: 30px;
+                padding: 30px 0 0 70px;
+            }
+          }   
+        }
+    } 
+}
