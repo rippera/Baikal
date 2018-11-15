@@ -8,8 +8,8 @@
                 border: none;
                 outline: none;
                 border-radius: 10px;
-                width: 255px;
-                height: 40px;
+                width: em(255);
+                height: em(40);
                 padding: 15px;
                 font-size: 14px;
                 font-family: $MontRegular;
@@ -22,8 +22,8 @@
             }
         }
         .form-1-select{
-            width: 520px;
-            height: 40px;
+            width: em(520);
+            height: em(40);
             padding-left: 15px;
             border: none;
             outline: none;

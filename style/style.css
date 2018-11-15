@@ -120,13 +120,13 @@ a {
     .section-1 .black .container .nav-header {
       padding-top: 55px; }
       .section-1 .black .container .nav-header .logo-h1 {
-        font-family: "MontserratRegular";
+        font-family: "MontserratBold";
         font-size: 20px;
         color: #ffffff;
         text-transform: uppercase;
         letter-spacing: 10px; }
       .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li {
-        font-family: "MontserratRegular";
+        font-family: "MontserratBold";
         font-size: 15px;
         color: #ffffff;
         text-transform: uppercase;
@@ -144,10 +144,10 @@ a {
       -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
       .section-1 .black .container .article-section-1 .article-section-1-h1 {
-        font-family: "MontserratRegular";
+        font-family: "MontserratBold";
         font-size: 52px;
         color: #ffffff;
-        width: 455px;
+        width: 473px;
         text-align: center;
         line-height: 60px;
         font-weight: bold; }
@@ -168,26 +168,26 @@ a {
     border: none;
     outline: none;
     border-radius: 10px;
-    width: 255px;
-    height: 40px;
+    width: 18.21429em;
+    height: 2.85714em;
     padding: 15px;
     font-size: 14px;
-    font-family: "MontserratBold";
+    font-family: "MontserratRegular";
     color: #ffffff; }
   .section-2 .form-1 form ::-webkit-input-placeholder {
     font-size: 14px;
-    font-family: "MontserratBold";
+    font-family: "MontserratRegular";
     color: #ffffff; }
   .section-2 .form-1 .form-1-select {
-    width: 520px;
-    height: 40px;
+    width: 37.14286em;
+    height: 2.85714em;
     padding-left: 15px;
     border: none;
     outline: none;
     background-color: #585a5c;
     border-radius: 10px;
     font-size: 14px;
-    font-family: "MontserratBold";
+    font-family: "MontserratRegular";
     color: #ffffff; }
   .section-2 .form-1 .btn-1 {
     background-color: #2e71f2;
@@ -198,9 +198,75 @@ a {
     height: 40px;
     color: #ffffff;
     font-size: 14px;
-    font-family: "MontserratBold";
+    font-family: "MontserratRegular";
     -webkit-transition: all .3s linear .3s;
     transition: all .3s linear .3s;
     cursor: pointer; }
     .section-2 .form-1 .btn-1:hover {
       background-color: #0057ff; }
+
+.section-3-heart {
+  background: #f9f9f9;
+  padding: 105px 0; }
+  .section-3-heart .heart-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid #2e71f2;
+    height: 145px;
+    width: 150px;
+    border-radius: 100px; }
+    .section-3-heart .heart-content .heart-box {
+      text-align: center;
+      line-height: 1.78571em;
+      font-size: 5.71429em;
+      color: #2e71f2; }
+
+.section-3 {
+  background: #f9f9f9;
+  padding-top: 70px;
+  padding-bottom: 105px; }
+  .section-3 .heart-article {
+    text-align: center; }
+    .section-3 .heart-article .heart-article-h1 {
+      font-family: "MontserratBold";
+      font-size: 3.71429em;
+      color: #3b3d40;
+      padding-bottom: 15px; }
+    .section-3 .heart-article .heart-article-p {
+      font-family: "PTSerifRegular";
+      font-size: 20px;
+      color: #656b6f;
+      text-align: center;
+      width: 455px;
+      margin-left: 270px;
+      line-height: 30px; }
+  .section-3 .category-box {
+    padding-top: 50px; }
+    .section-3 .category-box .category-h1 {
+      font-size: 25px;
+      color: #43474f;
+      margin-left: 60px; }
+    .section-3 .category-box .category-h2 {
+      font-family: "MontserratBold";
+      font-size: 11px;
+      color: #3b3d40;
+      text-transform: uppercase;
+      padding-top: 20px;
+      letter-spacing: 2px;
+      text-align: center;
+      padding-bottom: 10px; }
+    .section-3 .category-box .category-p {
+      font-family: "PTSerifRegular";
+      font-size: 14px;
+      color: #656b6f;
+      width: 150px;
+      line-height: 20px;
+      text-align: center; }
+
+.category-wrapper {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
