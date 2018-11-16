@@ -1,0 +1,55 @@
+.section-9{
+    background-color: $Black-4;
+    padding: 40px 0;
+    .footer-content{
+        justify-content: space-between;
+        .logo-box{
+            .footer-logo-h1{
+                font-family: $MontBold;
+                     font-size: em(20);
+                     color: $White;
+                     text-transform: uppercase;
+                     letter-spacing: 10px;
+            }
+        }
+        .address-box{
+            .address-p{
+                font-family: $SerifRegular;
+                font-size: em(14);
+                color: $Black-5;
+                line-height: 20px;
+                padding-bottom: 15px;
+            }
+            a{
+                font-family: $SerifRegular;
+                font-size: em(14);
+                color: $Black-5;
+            }
+        }
+        .social-icon-content{
+            .social-ul{
+                .social-li{
+                    font-size: em(20);
+                    color: $White;
+                    padding-right: 35px;
+                    margin-left: 150px;
+                }
+                .social-li:nth-child(2){
+                    margin-left: 0px;
+                }
+                .social-li:nth-child(3){
+                    margin-left: 0px;
+                }
+                .social-li:last-child{
+                    padding-right: 0px;
+                }
+            }
+        }
+        .copyright{
+            font-family: $SerifRegular;
+            font-size: em(14);
+            color: $Black-5;
+            padding-top: 30px;
+        }
+    }  
+}

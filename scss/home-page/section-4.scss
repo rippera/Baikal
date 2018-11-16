@@ -1,0 +1,35 @@
+.section-4{
+    padding: 105px 0;
+    .potential-h1{
+        font-family: $MontBold;
+        font-size: 52px;
+        color: $Black-4;
+        width: 520px;
+    }
+    .potential-p{
+        font-family: $SerifRegular;
+        font-size: 18px;
+        color: $Black-5;
+        width: 465px;
+        line-height: 25px;
+        padding-top: 30px;
+    }
+    .potential-img{
+        background-image: url(../img/book.jpg);
+        width: 390px;
+        height: 247px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        top: 25px;
+        .potential-img-box{
+            width: 390px;
+            height: 247px;
+            background-color: rgba(67,71,79,0.7);
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.section-7{
+    padding: 105px 0;
+    background: $White-2;
+    .section-7-title{
+        .section-7-h1{
+            font-family: $MontBold;
+            font-size: 52px;
+            color: $Black-4;
+            width: 910px;
+            text-align: center;
+        }
+        .section-7-p{
+            font-family: $SerifRegular;
+            font-size: 18px;
+            color: $Black-5;
+            width: 700px;
+            line-height: 25px;
+            padding-top: 30px;
+            text-align: center;
+            padding-left: 200px;
+        }
+        .title-wrapper{
+            padding-top: 70px;
+            justify-content: space-between;
+            .title-box-p{
+                font-family: $SerifRegular;
+                font-size: 14px;
+                color: $Black-5;
+                width: 440px;
+                line-height: 20px;
+            }
+        }
+        .btn-3{
+            background-color: $Blue-2;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            width: 160px;
+            height: 40px;
+            color: $White;
+            font-size: 10px;
+            font-family: $MontBold;
+            text-transform: uppercase;
+            margin-top: 60px;
+            margin-left: 380px;
+            transition: all .3s linear .3s;
+            cursor: pointer;
+            &:hover{
+                background-color: $Blue;
+            }
+        }
+    }
+}

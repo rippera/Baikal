@@ -1,0 +1,42 @@
+.section-5{
+    padding: 105px 0;
+    background: $White-2;
+    .liberal-img{
+        img{
+            width: 300px;
+            border-radius: 100px;
+        }
+    }
+    .liberal-h1{
+        font-family: $MontBold;
+        font-size: 52px;
+        color: $Black-4;
+        width: 10px;
+    }
+    .liberal-p{
+        font-family: $SerifRegular;
+        font-size: 18px;
+        color: $Black-5;
+        width: 465px;
+        line-height: 25px;
+        padding-top: 30px;
+    }
+    .btn-2{
+        background-color: $Blue-2;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        width: 160px;
+        height: 40px;
+        color: $White;
+        font-size: 10px;
+        font-family: $MontBold;
+        text-transform: uppercase;
+        margin-top: 30px;
+        transition: all .3s linear .3s;
+        cursor: pointer;
+        &:hover{
+            background-color: $Blue;
+        } 
+    }
+}

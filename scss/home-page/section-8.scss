@@ -1,0 +1,80 @@
+.section-8{
+    background-image: url(../img/bg-img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    .black2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(92,95,89,0.6);
+        width: 100%;
+        height: 70vh;
+        z-index: 1;
+    }
+    .program-wrapper{
+        padding-top: 110px;
+        text-align: center;
+        .program-h1{
+            font-family: $MontBold;
+            font-size: em(52);
+            color: $White;
+            // text-align: center;
+            padding-bottom: 30px;
+        }
+        .program-p{
+            font-family: $SerifRegular;
+            font-size: em(20);
+            // text-align: center;
+            color: $White-3;
+            // margin: 0 350px;
+            // width: 300px;
+            line-height: 25px;
+        }  
+    }
+    .form-subscribe{
+        text-align: center;
+        form{
+            padding-top: 65px;
+            input{
+                background-color: rgba(120, 122, 118, 0.4);
+                // background-color: transparent;
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                width: em(400);
+                height: em(40);
+                padding: 15px;
+                font-size: em(14);
+                font-family: $MontRegular;
+                color: $White;  
+                caret-color: blue;
+            }
+            ::-webkit-input-placeholder{
+                font-size: em(14);
+                font-family: $MontRegular;
+                color: $White;
+            }
+        }
+      
+    }
+    .btn-4{
+        margin-top: 65px;
+        background-color: $Blue-2;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        width: em(160);
+        height: em(40);
+        color: $White;
+        font-size: 14px;
+        font-family: $MontRegular;
+        transition: all .3s linear .3s;
+        cursor: pointer;
+        &:hover{
+            background-color: $Blue;
+        } 
+    }
+}
