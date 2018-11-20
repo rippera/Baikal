@@ -7,9 +7,12 @@
             .footer-logo-h1{
                 font-family: $MontBold;
                      font-size: em(20);
-                     color: $White;
+                     color: $Blue;
                      text-transform: uppercase;
                      letter-spacing: 10px;
+                     border: 1px solid $Blue-2;
+                     padding: 10px;
+                     transition: all .3s linear;
             }
         }
         .address-box{
@@ -33,6 +36,11 @@
                     color: $White;
                     padding-right: 35px;
                     margin-left: 150px;
+                    transition: all .3s linear;
+                    &:hover{
+                        color: $Blue;
+                        // border-bottom: 1px solid $Blue-2;
+                    }
                 }
                 .social-li:nth-child(2){
                     margin-left: 0px;

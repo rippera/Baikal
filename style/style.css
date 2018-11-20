@@ -124,17 +124,33 @@ a {
         font-size: 20px;
         color: #ffffff;
         text-transform: uppercase;
-        letter-spacing: 10px; }
+        letter-spacing: 10px;
+        border: 1px solid #2e71f2;
+        padding: 10px;
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear; }
+        .section-1 .black .container .nav-header .logo-h1:hover {
+          color: #0057ff; }
       .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li {
         font-family: "MontserratBold";
         font-size: 15px;
         color: #ffffff;
         text-transform: uppercase;
-        padding: 0 10px; }
+        padding: 10px 10px;
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+        border: 1px solid transparent; }
+        .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li:hover {
+          color: #0057ff;
+          border: 1px solid #2e71f2; }
       .section-1 .black .container .nav-header .social-ul .social-li {
-        font-size: 15px;
+        font-size: 20px;
         color: #ffffff;
-        padding-right: 35px; }
+        padding-right: 35px;
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear; }
+        .section-1 .black .container .nav-header .social-ul .social-li:hover {
+          color: #0057ff; }
       .section-1 .black .container .nav-header .social-ul .social-li:last-child {
         padding-right: 0px; }
     .section-1 .black .container .article-section-1 {
@@ -496,9 +512,13 @@ a {
     .section-9 .footer-content .logo-box .footer-logo-h1 {
       font-family: "MontserratBold";
       font-size: 1.42857em;
-      color: #ffffff;
+      color: #0057ff;
       text-transform: uppercase;
-      letter-spacing: 10px; }
+      letter-spacing: 10px;
+      border: 1px solid #2e71f2;
+      padding: 10px;
+      -webkit-transition: all .3s linear;
+      transition: all .3s linear; }
     .section-9 .footer-content .address-box .address-p {
       font-family: "PTSerifRegular";
       font-size: 1em;
@@ -513,7 +533,11 @@ a {
       font-size: 1.42857em;
       color: #ffffff;
       padding-right: 35px;
-      margin-left: 150px; }
+      margin-left: 150px;
+      -webkit-transition: all .3s linear;
+      transition: all .3s linear; }
+      .section-9 .footer-content .social-icon-content .social-ul .social-li:hover {
+        color: #0057ff; }
     .section-9 .footer-content .social-icon-content .social-ul .social-li:nth-child(2) {
       margin-left: 0px; }
     .section-9 .footer-content .social-icon-content .social-ul .social-li:nth-child(3) {

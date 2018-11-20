@@ -23,6 +23,13 @@
                  color: $White;
                  text-transform: uppercase;
                  letter-spacing: 10px;
+                 border: 1px solid $Blue-2;
+                 padding: 10px;
+                 transition: all .3s linear;
+                    &:hover{
+                        color: $Blue;
+                        // border-bottom: 1px solid $Blue-2;
+                    }
                 }
                 .navigation{
                     .navigation-ul{
@@ -31,15 +38,28 @@
                             font-size: 15px;
                             color: $White;
                             text-transform: uppercase;
-                            padding: 0 10px;
+                            padding: 10px 10px;
+                            transition: all .3s linear;
+                            border: 1px solid transparent;
+                            &:hover{
+                                color: $Blue;
+                                border: 1px solid $Blue-2;
+                            }
                         }
                     }
                 }
                 .social-ul{
                     .social-li{
-                        font-size: 15px;
+                        font-size: 20px;
                         color: $White;
                         padding-right: 35px;
+                        transition: all .3s linear;
+                        // padding: 10px;
+                        // border: 1px solid transparent;
+                        &:hover{
+                            color: $Blue;
+                            // border-bottom: 1px solid $Blue-2;
+                        }
                     }
                     .social-li:last-child{
                         padding-right: 0px;
