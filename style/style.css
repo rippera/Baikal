@@ -86,8 +86,7 @@ a {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  display: block;
-  padding: 0 40px; }
+  display: block; }
 
 @font-face {
   font-family: 'MontserratBold';
@@ -117,7 +116,7 @@ a {
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 100vh; }
+    height: 100%; }
     .section-1 .black .container .nav-header {
       padding-top: 55px; }
       .section-1 .black .container .nav-header .logo-h1 {
@@ -164,7 +163,6 @@ a {
         font-family: "MontserratBold";
         font-size: 52px;
         color: #ffffff;
-        width: 473px;
         text-align: center;
         line-height: 60px;
         font-weight: bold; }
@@ -172,10 +170,9 @@ a {
         font-family: "PTSerifRegular";
         font-size: 20px;
         color: #ffffff;
-        width: 370px;
         text-align: center;
         line-height: 30px;
-        padding: 30px 0 0 70px; }
+        padding-top: 30px; }
 
 .section-2 {
   background-color: #43474f;
@@ -311,8 +308,8 @@ a {
     background-position: center;
     top: 25px; }
     .section-4 .potential-img .potential-img-box {
-      width: 390px;
-      height: 247px;
+      width: 100%;
+      height: 100%;
       background-color: rgba(67, 71, 79, 0.7);
       position: absolute;
       top: 0;
@@ -397,17 +394,14 @@ a {
     font-family: "MontserratBold";
     font-size: 52px;
     color: #3b3d40;
-    width: 910px;
     text-align: center; }
   .section-7 .section-7-title .section-7-p {
     font-family: "PTSerifRegular";
     font-size: 18px;
     color: #656b6f;
-    width: 700px;
     line-height: 25px;
     padding-top: 30px;
-    text-align: center;
-    padding-left: 200px; }
+    text-align: center; }
   .section-7 .section-7-title .title-wrapper {
     padding-top: 70px;
     -webkit-box-pack: justify;
@@ -417,7 +411,6 @@ a {
       font-family: "PTSerifRegular";
       font-size: 14px;
       color: #656b6f;
-      width: 440px;
       line-height: 20px; }
   .section-7 .section-7-title .btn-3 {
     background-color: #2e71f2;
@@ -451,7 +444,7 @@ a {
     left: 0;
     background-color: rgba(92, 95, 89, 0.6);
     width: 100%;
-    height: 70vh;
+    height: 100%;
     z-index: 1; }
   .section-8 .program-wrapper {
     padding-top: 110px;
@@ -550,3 +543,63 @@ a {
       font-size: 1em;
       color: #656b6f;
       padding-top: 30px; }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px; }
+  .section-1 .black .container .article-section-1 .article-section-1-h1 {
+    font-size: 46px; }
+  .section-1 .black .container .article-section-1 .article-section-1-p {
+    font-size: 18px; }
+  .section-2 .form-1 {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+    .section-2 .form-1 form input {
+      width: 14.28571em; }
+    .section-2 .form-1 .form-1-select {
+      width: 25em; }
+  .section-3 .heart-article .heart-article-h1 {
+    font-size: 3.21429em; }
+  .section-3 .heart-article .heart-article-p {
+    font-size: 16px;
+    width: 345px;
+    margin-left: 300px; }
+  .section-3 .category-wrapper {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+  .section-4 .potential-h1 {
+    font-size: 46px; }
+  .section-4 .potential-p {
+    font-size: 16px;
+    width: 435px; }
+  .section-5 .liberal-wrapper {
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .section-5 .liberal-wrapper .liberal-h1 {
+      font-size: 46px; }
+    .section-5 .liberal-wrapper .liberal-p {
+      font-size: 16px;
+      width: 410px; }
+  .section-6 .feauture-wrapper {
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .section-6 .feauture-wrapper .feauture-h1 {
+      font-size: 46px; }
+    .section-6 .feauture-wrapper .feauture-p {
+      font-size: 16px;
+      width: 410px; }
+  .section-7 .section-7-title .section-7-h1 {
+    font-size: 46px; }
+  .section-7 .section-7-title .section-7-p {
+    font-size: 16px; }
+  .section-7 .section-7-title .title-wrapper {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+  .section-8 .program-wrapper .program-h1 {
+    font-size: 46px; }
+  .section-8 .program-wrapper .program-p {
+    font-size: 1.28571em; } }
