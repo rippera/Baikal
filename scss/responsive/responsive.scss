@@ -19,7 +19,7 @@
     }
     .section-2{
         .form-1{
-            // justify-content: space-evenly;
+            justify-content: space-around;
             form{
                 input{
                     width: em(200)
@@ -86,9 +86,9 @@
             .section-7-p{
                 font-size: 16px;
             }   
-        .title-wrapper{
-            justify-content: space-around;
-        }
+            .title-wrapper{
+                justify-content: space-around;
+            }
         }
     }
     .section-8{

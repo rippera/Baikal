@@ -552,10 +552,13 @@ a {
     font-size: 46px; }
   .section-1 .black .container .article-section-1 .article-section-1-p {
     font-size: 18px; }
-  .section-2 .form-1 form input {
-    width: 14.28571em; }
-  .section-2 .form-1 .form-1-select {
-    width: 25em; }
+  .section-2 .form-1 {
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .section-2 .form-1 form input {
+      width: 14.28571em; }
+    .section-2 .form-1 .form-1-select {
+      width: 25em; }
   .section-3 .heart-article .heart-article-h1 {
     font-size: 3.21429em; }
   .section-3 .heart-article .heart-article-p {
