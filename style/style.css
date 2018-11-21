@@ -552,24 +552,16 @@ a {
     font-size: 46px; }
   .section-1 .black .container .article-section-1 .article-section-1-p {
     font-size: 18px; }
-  .section-2 .form-1 {
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly; }
-    .section-2 .form-1 form input {
-      width: 14.28571em; }
-    .section-2 .form-1 .form-1-select {
-      width: 25em; }
+  .section-2 .form-1 form input {
+    width: 14.28571em; }
+  .section-2 .form-1 .form-1-select {
+    width: 25em; }
   .section-3 .heart-article .heart-article-h1 {
     font-size: 3.21429em; }
   .section-3 .heart-article .heart-article-p {
     font-size: 16px;
     width: 345px;
     margin-left: 300px; }
-  .section-3 .category-wrapper {
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly; }
   .section-4 .potential-h1 {
     font-size: 46px; }
   .section-4 .potential-p {
@@ -596,9 +588,8 @@ a {
   .section-7 .section-7-title .section-7-p {
     font-size: 16px; }
   .section-7 .section-7-title .title-wrapper {
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly; }
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
   .section-8 .program-wrapper .program-h1 {
     font-size: 46px; }
   .section-8 .program-wrapper .program-p {
