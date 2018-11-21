@@ -565,6 +565,9 @@ a {
     font-size: 16px;
     width: 345px;
     margin-left: 300px; }
+  .section-3 .category-wrapper {
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
   .section-4 .potential-h1 {
     font-size: 46px; }
   .section-4 .potential-p {
