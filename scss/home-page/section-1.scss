@@ -65,6 +65,15 @@
                         padding-right: 0px;
                     }
                 }
+                .burger{
+                    font-size: 20px;
+                    color: $White;
+                    transition: all .3s linear;
+                    display: none;
+                    &:hover{
+                        color: $Blue;
+                    }
+                }
             } 
           .article-section-1{
             position: absolute;

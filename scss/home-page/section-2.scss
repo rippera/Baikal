@@ -38,8 +38,8 @@
             border: none;
             outline: none;
             border-radius: 10px;
-            width: 160px;
-            height: 40px;
+            width: em(160);
+            height: em(40);
             color: $White;
             font-size: 14px;
             font-family: $MontRegular;
