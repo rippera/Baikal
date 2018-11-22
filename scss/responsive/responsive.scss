@@ -38,7 +38,7 @@
         .category-wrapper{
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: space-around;
         }
     }
     .section-4{
@@ -81,10 +81,29 @@
             .container{
                 .nav-header{
                     .burger{
-                        display: inline;
+                        display: block;
                     }
                     .navigation{
-                        display: none;
+                        position: absolute;
+                        width: 20%;
+                        height: 175px;
+                        top: 100px;
+                        left: -100%;
+                        background: rgba(0,0,0,.3);
+                        transition: .6s linear;
+                        z-index: 3;
+                        &.active{
+                            display: block;
+                            left: 0;
+                        }
+                        .navigation-ul{
+                            display: block;
+                            margin-top: 10px;
+                            .navigation-li{ 
+                                display: block;
+                                text-align: left; 
+                            }
+                        }
                     }
                 }
                 .article-section-1{
@@ -192,10 +211,29 @@
             .container{
                 .nav-header{
                     .burger{
-                        display: inline;
+                        display: block;
                     }
                     .navigation{
-                        display: none;
+                        position: absolute;
+                        width: 30%;
+                        height: 175px;
+                        top: 100px;
+                        left: -100%;
+                        background: rgba(0,0,0,.3);
+                        transition: .6s linear;
+                        z-index: 3;
+                        &.active{
+                            display: block;
+                            left: 0;
+                        }
+                        .navigation-ul{
+                            display: block;
+                            margin-top: 10px;
+                            .navigation-li{ 
+                                display: block;
+                                text-align: left; 
+                            }
+                        }
                     }
                 }
                 .article-section-1{

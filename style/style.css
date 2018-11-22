@@ -565,9 +565,8 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly; }
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
   .section-4 .potential-h1 {
     font-size: 48px; }
   .section-7 .section-7-title .section-7-h1 {
@@ -584,9 +583,26 @@ a {
 
 @media screen and (max-width: 769px) {
   .section-1 .black .container .nav-header .burger {
-    display: inline; }
+    display: block; }
   .section-1 .black .container .nav-header .navigation {
-    display: none; }
+    position: absolute;
+    width: 20%;
+    height: 175px;
+    top: 100px;
+    left: -100%;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-transition: .6s linear;
+    transition: .6s linear;
+    z-index: 3; }
+    .section-1 .black .container .nav-header .navigation.active {
+      display: block;
+      left: 0; }
+    .section-1 .black .container .nav-header .navigation .navigation-ul {
+      display: block;
+      margin-top: 10px; }
+      .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li {
+        display: block;
+        text-align: left; }
   .section-1 .black .container .article-section-1 .article-section-1-h1 {
     font-size: 42px; }
   .section-2 .form-1 {
@@ -650,9 +666,26 @@ a {
 
 @media screen and (max-width: 540px) {
   .section-1 .black .container .nav-header .burger {
-    display: inline; }
+    display: block; }
   .section-1 .black .container .nav-header .navigation {
-    display: none; }
+    position: absolute;
+    width: 30%;
+    height: 175px;
+    top: 100px;
+    left: -100%;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-transition: .6s linear;
+    transition: .6s linear;
+    z-index: 3; }
+    .section-1 .black .container .nav-header .navigation.active {
+      display: block;
+      left: 0; }
+    .section-1 .black .container .nav-header .navigation .navigation-ul {
+      display: block;
+      margin-top: 10px; }
+      .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li {
+        display: block;
+        text-align: left; }
   .section-1 .black .container .article-section-1 .article-section-1-h1 {
     font-size: 28px;
     line-height: 1; }

@@ -39,7 +39,7 @@
                     <i class="fab fa-instagram"></i>
                 </a></li>
             </ul>
-            <div class="burger"><i class="fas fa-bars"></i></div>
+            <div class="burger"><i class="fas fa-bars menu"></i></div>
         </header>
         <article class="article-section-1">
                 <h1 class="article-section-1-h1">We Build Objects And Spaces</h1>
@@ -308,5 +308,13 @@
 </section>
 <!-- END SECTION-9 -->
 <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.burger').click(function(){
+            $('.navigation').toggleClass('active');
+        })
+    })
+</script>
 </body>
 </html>
