@@ -384,3 +384,162 @@
         }
     }
 }
+
+@media screen  and (max-width: 320px){
+    .section-1{
+        .black{
+            .container{
+                .nav-header{
+                    .navigation{
+                        .navigation-ul{
+                            .navigation-li{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .logo-h1{
+                        font-size: 14px;
+                    }
+                    .social-ul{
+                        .social-li:nth-child(1){
+                            padding-left: 0px;
+                            padding-right: 0px;
+                        }
+                        .social-li:nth-child(2){
+                            padding-left: 15px;
+                            padding-right: 0px;
+                        }
+                        .social-li:nth-child(3){
+                            padding-left: 15px;
+                            padding-right: 0px;
+                        }
+                    }
+                }
+                .article-section-1{
+                    .article-section-1-h1{
+                        font-size: 18px;
+                    }
+                    .article-section-1-p{
+                        font-size: 16px;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+    }
+    .section-2{
+        .form-1{
+            form{
+                input{
+                    width: em(200);
+                } 
+            }
+            .form-1-select{
+                width: em(200);
+            }
+            .btn-1{
+                width: em(200);
+            }
+        }
+    }
+    .section-3-heart{
+        .heart-content{
+            top: 50%;
+            height: 115px;
+            width: 120px;
+            .heart-box{
+                line-height: em(25);
+                font-size: em(60);
+            }
+        }
+    }
+    .section-3{
+        padding-top: 0px;
+        .heart-article{
+            .heart-article-h1{
+                font-size: em(24);
+            }
+            .heart-article-p{
+                font-size: 12px;
+                line-height: 1;
+            }
+        }
+    }
+    .section-5{
+        .liberal-img{
+            img{
+                width: 200px;
+            }
+        }
+        .liberal-wrapper{
+            .liberal-h1{
+                font-size: 28px;
+            }
+            .liberal-p{
+                font-size: 14px;
+                line-height: 1;
+                width: 180px;
+            }
+            .btn-2{
+                width: 110px;
+            }
+        }
+    }
+    .section-6{
+        .feauture-img{
+            img{
+                width: 200px;
+            }
+        }
+        .feauture-wrapper{
+            .feauture-h1{
+                font-size: 28px;
+            }
+            .feauture-p{
+                font-size: 14px;
+                line-height: 1;
+                width: 180px;
+            }
+            .btn-3{
+                width: 110px;
+            }
+        }
+    }
+    .section-7{
+        .section-7-title{
+            .section-7-h1{
+                font-size: 20px;
+            }
+            .section-7-p{
+                font-size: 14px;
+                line-height: 1;
+            }
+            .title-wrapper{
+                .title-box{
+                    .title-box-p{
+                        font-size: 14px;
+                        line-height: 1;
+                        display: block;
+                        text-align: left;
+                    }
+                }
+            }
+            .btn-3{
+                width: 110px;
+                margin-top: 50px;
+            }
+        }
+    }
+    .section-8{
+        .program-wrapper{
+            padding-top: 60px;
+            .program-h1{
+                font-size: em(22);
+                padding-top: 0px;
+            }
+            .program-p{
+                font-size: em(14);
+            }
+        }
+    }
+}
