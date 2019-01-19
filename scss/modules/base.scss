@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 // BASE CLASSES
 .clearfix::after{
     content: "";
@@ -34,4 +39,8 @@
 	margin: 0 auto;
     display: block;
     // padding: 0 20px;
+}
+.active2{
+    color: $Blue !important;
+    border: 1px solid $Blue-2 !important;
 }

@@ -43,6 +43,9 @@ a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 .clearfix::after {
   content: "";
   display: block;
@@ -88,6 +91,10 @@ a {
   margin: 0 auto;
   display: block; }
 
+.active2 {
+  color: #0057ff !important;
+  border: 1px solid #2e71f2 !important; }
+
 @font-face {
   font-family: 'MontserratBold';
   src: url("../fonts/Montserrat-Bold.eot");
@@ -118,7 +125,15 @@ a {
     width: 100%;
     height: 100%; }
     .section-1 .black .container .nav-header {
-      padding-top: 55px; }
+      padding: 35px;
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 999;
+      background: transparent;
+      -webkit-transition: .3s;
+      transition: .3s; }
       .section-1 .black .container .nav-header .logo-h1 {
         font-family: "MontserratBold";
         font-size: 20px;
@@ -318,8 +333,7 @@ a {
       background-color: rgba(67, 71, 79, 0.7);
       position: absolute;
       top: 0;
-      right: 0;
-      z-index: 1; }
+      right: 0; }
 
 .section-5 {
   padding: 105px 0;
@@ -445,8 +459,7 @@ a {
     left: 0;
     background-color: rgba(92, 95, 89, 0.6);
     width: 100%;
-    height: 100%;
-    z-index: 1; }
+    height: 100%; }
   .section-8 .program-wrapper {
     padding-top: 110px;
     text-align: center; }
@@ -583,14 +596,15 @@ a {
 
 @media screen and (max-width: 769px) {
   .section-1 .black .container .nav-header .burger {
-    display: block; }
+    display: block;
+    z-index: 200; }
   .section-1 .black .container .nav-header .navigation {
     position: absolute;
-    width: 20%;
-    height: 175px;
-    top: 100px;
+    width: 100%;
+    height: 100vh;
+    top: 0;
     left: -100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.9);
     -webkit-transition: .6s linear;
     transition: .6s linear;
     z-index: 3; }
@@ -599,10 +613,11 @@ a {
       left: 0; }
     .section-1 .black .container .nav-header .navigation .navigation-ul {
       display: block;
-      margin-top: 10px; }
+      margin-top: 150px; }
       .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li {
+        margin-bottom: 20px;
         display: block;
-        text-align: left; }
+        text-align: center; }
   .section-1 .black .container .article-section-1 .article-section-1-h1 {
     font-size: 42px; }
   .section-2 .form-1 {
@@ -666,26 +681,9 @@ a {
 
 @media screen and (max-width: 540px) {
   .section-1 .black .container .nav-header .burger {
-    display: block; }
-  .section-1 .black .container .nav-header .navigation {
-    position: absolute;
-    width: 30%;
-    height: 175px;
-    top: 100px;
-    left: -100%;
-    background: rgba(0, 0, 0, 0.3);
-    -webkit-transition: .6s linear;
-    transition: .6s linear;
-    z-index: 3; }
-    .section-1 .black .container .nav-header .navigation.active {
-      display: block;
-      left: 0; }
-    .section-1 .black .container .nav-header .navigation .navigation-ul {
-      display: block;
-      margin-top: 10px; }
-      .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li {
-        display: block;
-        text-align: left; }
+    margin-left: 15px; }
+  .section-1 .black .container .nav-header .logo-h1 {
+    letter-spacing: 5px; }
   .section-1 .black .container .article-section-1 .article-section-1-h1 {
     font-size: 28px;
     line-height: 1; }
@@ -799,10 +797,9 @@ a {
         margin-left: 0px; } }
 
 @media screen and (max-width: 320px) {
-  .section-1 .black .container .nav-header .navigation .navigation-ul .navigation-li {
-    font-size: 12px; }
   .section-1 .black .container .nav-header .logo-h1 {
-    font-size: 14px; }
+    font-size: 14px;
+    letter-spacing: 4px; }
   .section-1 .black .container .nav-header .social-ul .social-li:nth-child(1) {
     padding-left: 0px;
     padding-right: 0px; }

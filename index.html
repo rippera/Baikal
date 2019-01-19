@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baikal Project</title>
+    <link rel="icon" href="img/b2.png">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
@@ -14,18 +15,14 @@
 <section class="section-1 relative">
     <div class="black">
     <div class="container">
-        <header class="nav-header d-flex justify">
+        <header class="nav-header d-flex justify" id="header">
             <a href="index.html"><h1 class="logo-h1">baikal</h1></a>
             <nav class="navigation">
                 <ul class="navigation-ul d-flex">
-                    <a href="#">
-                        <li class="navigation-li d-flex">projects</li></a>
-                    <a href="#">
-                        <li class="navigation-li d-flex">about us</li></a>
-                    <a href="#">    
-                        <li class="navigation-li d-flex">stories</li></a>
-                    <a href="#">     
-                        <li class="navigation-li d-flex">contact</li></a>
+                    <li class="navigation-li d-flex active2"><a href="#sec4">projects</a></li>
+                    <li class="navigation-li d-flex"><a href="#sec3">about us</a></li>
+                    <li class="navigation-li d-flex"><a href="#sec7">stories</a></li>
+                    <li class="navigation-li d-flex"><a href="#sec9">contact</a></li>
                 </ul>
             </nav>
             <ul class="social-ul d-flex">
@@ -54,7 +51,7 @@
 <!-- END SECTION-1 -->
 
 <!-- SECTION-2 -->
-<section class="section-2">
+<section class="section-2" >
     <div class="container">
         <div class="form-1 d-flex justify">
             <form action="">
@@ -73,7 +70,7 @@
 <!--END SECTION-2 -->
 
 <!-- SECTION-3 -->
-<section class="section-3-heart relative">
+<section class="section-3-heart relative" id="sec3">
     <div class="container">
         <div class="heart-content">
             <div class="heart-box"><i class="far fa-heart"></i></div>
@@ -137,7 +134,7 @@
 <!--END SECTION-3 -->
 
 <!-- SECTION-4 -->
-<section class="section-4">
+<section class="section-4" id="sec4">
     <div class="container">
        <div class="potential-wrapper d-flex justify">
             <article class="potential-article">
@@ -213,7 +210,7 @@
 <!-- END SECTION-6 -->
 
 <!-- SECTION-7 -->
-<section class="section-7">
+<section class="section-7" id="sec7">
     <div class="container">
         <div class="section-7-title">
             <h1 class="section-7-h1">
@@ -276,7 +273,7 @@
 <!--END SECTION-8 -->
 
 <!-- SECTION-9 -->
-<section class="section-9">
+<section class="section-9" id="sec9">
     <div class="container">
         <footer class="footer-content d-flex">
             <div class="logo-box">
@@ -307,14 +304,9 @@
     </div>
 </section>
 <!-- END SECTION-9 -->
+
 <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('.burger').click(function(){
-            $('.navigation').toggleClass('active');
-        })
-    })
-</script>
+<script src="js/main.js"></script>
 </body>
 </html>

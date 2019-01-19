@@ -16,7 +16,14 @@
         // opacity: 0.5;
         .container{
             .nav-header{
-                padding-top: 55px;
+                padding: 35px;
+                position: fixed;
+                width: 100%;
+                left: 0;
+                top: 0;
+                z-index: 999;
+                background: transparent;
+                transition: .3s;
                 .logo-h1{
                  font-family: $MontBold;
                  font-size: 20px;
